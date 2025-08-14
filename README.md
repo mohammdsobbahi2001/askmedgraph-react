@@ -4,8 +4,6 @@ git remote set-url origin https://mohammdsobbahi2001@github.com/mohammdsobbahi20
 git config --global credential.helper store
 git push origin main
 
-username: mohammdsobbahi2001
-password: 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
 
 
 git credential-osxkeychain erase
