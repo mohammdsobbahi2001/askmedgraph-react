@@ -1,8 +1,8 @@
 // src/constants.jsx
 
 // Base API URL
-export const API_BASE_URL = 'https://medical-kg-api-production.up.railway.app/api/search';
-// export const API_BASE_URL = 'http://127.0.0.1:5000/api/search';
+// export const API_BASE_URL = 'https://medical-kg-api-production.up.railway.app/api/search';
+export const API_BASE_URL = 'http://127.0.0.1:5000/api/search';
 
 // Language Models
 export const GPT_4O_MINI = "GPT-4o-mini";
@@ -25,10 +25,10 @@ export const DATA_SOURCES = [
 ];
 
 export const SAMPLE_QUESTIONS = [
-  "Find the number of male and female patients in each marital status category.",
-  "Which departments have the highest diversity of diagnoses?",
-  "List the names of top 3 diagnoses for patients over 60.",
-  "Which departments admit patients from the most age group?"
+  "What is the age of patient with MRN '72'?",
+  "What's the most common admission month?",
+  "What percentage of patients are female?",
+  "List patients with increasing creatinine levels across multiple tests."
 ];
 
 
