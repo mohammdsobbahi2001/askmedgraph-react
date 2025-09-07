@@ -11,10 +11,10 @@ export const DEEPSEEK_CHAT = "deepseek-chat";
 export const GEMMA_7B = "gemma:7b";
 
 export const LANGUAGE_MODELS = {
-  GPT_4O_MINI: "GPT-4o Mini",
-  CLAUDE_3_5_HAIKU: "Claude Haiku 3.5",
-  DEEPSEEK_CHAT: "DeepSeek Chat",
-  GEMMA_7B: "Gemma 7B"
+  [GPT_4O_MINI]: "GPT-4o Mini",
+  [CLAUDE_3_5_HAIKU]: "Claude Haiku 3.5",
+  [DEEPSEEK_CHAT]: "DeepSeek Chat",
+  [GEMMA_7B]: "Gemma 7B"
 };
 
 // Data Sources
