@@ -8,11 +8,13 @@ export const API_BASE_URL = 'http://127.0.0.1:5000/api/search';
 export const GPT_4O_MINI = "GPT-4o-mini";
 export const CLAUDE_3_5_HAIKU = "Claude 3.5 Haiku";
 export const DEEPSEEK_CHAT = "deepseek-chat";
+export const GEMMA_7B = "gemma:7b";
 
 export const LANGUAGE_MODELS = [
   GPT_4O_MINI,
   CLAUDE_3_5_HAIKU,
-  DEEPSEEK_CHAT
+  DEEPSEEK_CHAT,
+  GEMMA_7B
 ];
 
 // Data Sources

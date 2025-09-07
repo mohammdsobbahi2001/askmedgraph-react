@@ -12,6 +12,7 @@ export const LLM_OPTIONS = {
   GPT_4O_MINI: "GPT-4o Mini",
   CLAUDE_HAIKU_3_5: "Claude Haiku 3.5",
   DEEP_SEEK_CHAT: "DeepSeek Chat"
+  GEMMA_7B: "Gemma 7B"
 };
 
 export const SOURCE_OPTIONS = {
