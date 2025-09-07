@@ -10,12 +10,12 @@ export const CLAUDE_3_5_HAIKU = "Claude 3.5 Haiku";
 export const DEEPSEEK_CHAT = "deepseek-chat";
 export const GEMMA_7B = "gemma:7b";
 
-export const LANGUAGE_MODELS = [
-  GPT_4O_MINI,
-  CLAUDE_3_5_HAIKU,
-  DEEPSEEK_CHAT,
-  GEMMA_7B
-];
+export const LANGUAGE_MODELS = {
+  GPT_4O_MINI: "GPT-4o Mini",
+  CLAUDE_3_5_HAIKU: "Claude Haiku 3.5",
+  DEEPSEEK_CHAT: "DeepSeek Chat",
+  GEMMA_7B: "Gemma 7B"
+};
 
 // Data Sources
 export const KNOWLEDGE_GRAPH = "Knowledge Graph";

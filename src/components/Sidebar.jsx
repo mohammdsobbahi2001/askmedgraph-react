@@ -105,13 +105,15 @@ const Sidebar = ({
               <Cpu className="w-4 h-4 mr-2" />
               Language Model:
             </label>
-            <select 
+            <select
               value={llmChoice}
-              onChange={(e) => setLlmChoice(e.target.value)}
+              onChange={(e) => setLlmChoice(e.target.value)} // value = key
               className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-colors bg-white text-sm"
             >
-              {LANGUAGE_MODELS.map((model) => (
-                <option key={model} value={model}>{model}</option>
+              {Object.entries(LANGUAGE_MODELS).map(([key, label]) => (
+                <option key={key} value={key}>
+                  {label}
+                </option>
               ))}
             </select>
           </div>
